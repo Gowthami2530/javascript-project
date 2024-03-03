@@ -135,3 +135,59 @@
 }
 /* nav code for large screen end */
 /* nav code end */
+/* asidebar start */
+.asidebar-main{
+    background-color:rgb(46, 44, 44) ;
+    width:100%;
+    height:100vh;
+    position: fixed;
+    top:0;
+    padding:20px;
+    left:-100%;
+    transition:2s;  
+    opacity:0;
+    z-index:10;
+
+}
+.showsidebar{
+    left:0%;
+    opacity:1;
+}
+
+.asidebar-center{
+    display: flex;
+    width:100%;
+    align-items: center;
+    justify-content: space-between;
+    min-width:50px;
+
+}
+.nav-center{
+    width:30px;
+}
+.closebar{
+    width:25px;
+}
+.sidebar-container{
+    width:100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.sidebar-link{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    row-gap:30px;
+}
+.sidebar-link,li,a{
+    font-size:19px;
+    list-style: none;
+    text-decoration: none;
+    color:white;
+}
+/* asidebar end */
