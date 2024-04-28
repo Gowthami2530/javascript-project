@@ -546,3 +546,115 @@
 
 }
 /* Featured Courses end */
+/* Our Campuses start */ 
+.campuses{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;      
+    background-color: #fdf2f2;
+}
+.campuseheading h4{
+    font-size:30px;
+    color:#3777aa;
+    padding:30px 0px 20px 0px ;
+
+}
+.campusesnames{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 1250px;
+    margin:0,auto;
+    padding:50px 30px;
+    gap:50px;
+}
+.campuses1{
+    width:250px;
+    background-color: #fff;
+    overflow: hidden;
+    border-radius:5px;
+    box-shadow:0px 10px 20px 0px rgb(0,0,0,0.2);
+    position: relative;
+
+}
+
+.campuses1 img{
+    width:100%;
+    height:150px;
+    object-fit: cover;
+}
+.shareicon img{
+    width:40px;
+    height:40px;
+    position: absolute;
+    object-fit: cover;
+    left:50%;
+    bottom:57%;
+    transform:translate(-50%,50%);
+    border-radius:50%;
+    background-color: #fff;
+    border:5px solid #fdf2f2 ;
+    transition: all 0.3s linear;
+}
+.campuses1:hover{
+    transform:translateY(-2px) scale(1.002);
+    box-shadow:0px 10px 20px 0px rgb(0,0,0,0.2) ;
+}
+.campusesmatter{
+    text-align: center;
+    padding:30px 0;
+} 
+.campusesmatter h4{
+    font-size:16px;
+    color: #3777aa;
+    font-weight: bold;
+}
+.campusesmatter p{
+    padding:20px 0 0 20px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size:18px;
+
+
+}
+.campusesmatter h5{
+    padding-top:20px;
+    font-size:18px;
+    color: #3777aa;
+}
+@media screen and (min-width:992px) {
+    .campuseheading h4{
+        font-size:55px ;
+    }
+    .campuses1{
+    width:360px;
+   }
+   .campuses1 img{
+    width:100%;
+    height:255px;
+    object-fit: cover;
+   }
+   .shareicon img{
+    width:50px;
+    height:50px;
+    bottom:45%;
+   }
+   .campusesnames{
+    justify-content:start;
+   }
+   .campusesmatter h4{
+    font-size:20px;
+   }
+   .campusesmatter p{
+    font-size:20px;
+   }
+    
+}
+
+/* Our Campuses end  */
