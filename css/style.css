@@ -658,3 +658,89 @@
 }
 
 /* Our Campuses end  */
+/* Facilities start */
+.facilities{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2fdfb;
+}
+.facilitiesheading h4{
+    font-size:30px;
+    color: #3777aa;
+    padding:30px 0px 20px 0px ;
+}
+.facilitiescards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 1250px;
+    margin:0,auto;
+    padding:50px 30px;
+    gap:50px;
+}
+.facilitiescard1{
+    width:250px;
+    overflow: hidden;
+    border-radius:5px;
+    box-shadow:0px 10px 20px 0px rgb(0,0,0,0.2);
+}
+.facilitiescard1 img{
+    width:100%;
+    height:150px;
+    object-fit: cover;
+    transition: all 0.3s linear;
+}
+.facilitiescard1:hover{
+    transform: translateY(-2px) scale(1.0025);
+}
+.facilitiescard1 img:hover{
+    transform:scale(1.05) rotateZ(2deg);
+}
+.facilitiesmatter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+.facilitiesmatter h4{
+    font-size:16px;
+    font-weight: bold;
+    color: #3777aa;
+    padding:20px;
+}
+.facilitiesmatter p{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size:18px;
+    padding:20px 0px 0px 20px;
+    margin-bottom:30px;
+
+}
+
+@media screen and (min-width:992px){
+    .facilitiesheading h4{
+        font-size:55px;
+    }
+    .facilitiescard1{
+        width:360px;
+    }
+    .facilitiescard1 img{
+        width:100%;
+        height:270px;
+    }
+    .facilitiesmatter h4{
+        font-size:20px;
+    }
+    .facilitiesmatter p{
+        font-size:20px;
+    }
+    
+}
+/*    Facilities end  */
