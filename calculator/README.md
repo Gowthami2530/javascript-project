@@ -1,1 +1,1 @@
-# [Calculator] (https://ubiquitous-praline-d2faff.netlify.app/)
+# [Calculator](https://ubiquitous-praline-d2faff.netlify.app/)
